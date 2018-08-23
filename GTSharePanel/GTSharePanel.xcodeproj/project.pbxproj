@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5312209D212C64B90018017F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5312209C212C64B90018017F /* AppDelegate.m */; };
+		531220A0212C64B90018017F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5312209F212C64B90018017F /* ViewController.m */; };
+		531220A3212C64B90018017F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531220A1212C64B90018017F /* Main.storyboard */; };
+		531220A5212C64BB0018017F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531220A4212C64BB0018017F /* Assets.xcassets */; };
+		531220A8212C64BB0018017F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531220A6212C64BB0018017F /* LaunchScreen.storyboard */; };
+		531220AB212C64BB0018017F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 531220AA212C64BB0018017F /* main.m */; };
+		531220B9212CF65A0018017F /* AutoHomeSharePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 531220B8212CF65A0018017F /* AutoHomeSharePanel.m */; };
+		5360751A212EAA2D00F6551A /* UIButton+ImageTitleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 53607519212EAA2D00F6551A /* UIButton+ImageTitleStyle.m */; };
+		5360751E212EAEB400F6551A /* BossSharePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5360751D212EAEB400F6551A /* BossSharePanel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53122098212C64B90018017F /* GTSharePanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTSharePanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5312209B212C64B90018017F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5312209C212C64B90018017F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5312209E212C64B90018017F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5312209F212C64B90018017F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		531220A2212C64B90018017F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		531220A4212C64BB0018017F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		531220A7212C64BB0018017F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		531220A9212C64BB0018017F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531220AA212C64BB0018017F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		531220B7212CF65A0018017F /* AutoHomeSharePanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoHomeSharePanel.h; sourceTree = "<group>"; };
+		531220B8212CF65A0018017F /* AutoHomeSharePanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHomeSharePanel.m; sourceTree = "<group>"; };
+		53607515212E5C9600F6551A /* GTSharePanelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTSharePanelProtocol.h; sourceTree = "<group>"; };
+		53607518212EAA2D00F6551A /* UIButton+ImageTitleStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleStyle.h"; sourceTree = "<group>"; };
+		53607519212EAA2D00F6551A /* UIButton+ImageTitleStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleStyle.m"; sourceTree = "<group>"; };
+		5360751C212EAEB400F6551A /* BossSharePanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BossSharePanel.h; sourceTree = "<group>"; };
+		5360751D212EAEB400F6551A /* BossSharePanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BossSharePanel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53122095212C64B90018017F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5312208F212C64B90018017F = {
+			isa = PBXGroup;
+			children = (
+				5312209A212C64B90018017F /* GTSharePanel */,
+				53122099212C64B90018017F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53122099212C64B90018017F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53122098212C64B90018017F /* GTSharePanel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5312209A212C64B90018017F /* GTSharePanel */ = {
+			isa = PBXGroup;
+			children = (
+				531220B2212CF6110018017F /* SharePanels */,
+				5312209B212C64B90018017F /* AppDelegate.h */,
+				5312209C212C64B90018017F /* AppDelegate.m */,
+				5312209E212C64B90018017F /* ViewController.h */,
+				5312209F212C64B90018017F /* ViewController.m */,
+				531220A1212C64B90018017F /* Main.storyboard */,
+				531220A4212C64BB0018017F /* Assets.xcassets */,
+				531220A6212C64BB0018017F /* LaunchScreen.storyboard */,
+				531220A9212C64BB0018017F /* Info.plist */,
+				531220AA212C64BB0018017F /* main.m */,
+			);
+			path = GTSharePanel;
+			sourceTree = "<group>";
+		};
+		531220B2212CF6110018017F /* SharePanels */ = {
+			isa = PBXGroup;
+			children = (
+				53607515212E5C9600F6551A /* GTSharePanelProtocol.h */,
+				53607518212EAA2D00F6551A /* UIButton+ImageTitleStyle.h */,
+				53607519212EAA2D00F6551A /* UIButton+ImageTitleStyle.m */,
+				531220B3212CF6110018017F /* AutoHome */,
+				5360751B212EAE7300F6551A /* Boss */,
+			);
+			name = SharePanels;
+			path = ../../SharePanels;
+			sourceTree = "<group>";
+		};
+		531220B3212CF6110018017F /* AutoHome */ = {
+			isa = PBXGroup;
+			children = (
+				531220B7212CF65A0018017F /* AutoHomeSharePanel.h */,
+				531220B8212CF65A0018017F /* AutoHomeSharePanel.m */,
+			);
+			path = AutoHome;
+			sourceTree = "<group>";
+		};
+		5360751B212EAE7300F6551A /* Boss */ = {
+			isa = PBXGroup;
+			children = (
+				5360751C212EAEB400F6551A /* BossSharePanel.h */,
+				5360751D212EAEB400F6551A /* BossSharePanel.m */,
+			);
+			path = Boss;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53122097212C64B90018017F /* GTSharePanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531220AE212C64BB0018017F /* Build configuration list for PBXNativeTarget "GTSharePanel" */;
+			buildPhases = (
+				53122094212C64B90018017F /* Sources */,
+				53122095212C64B90018017F /* Frameworks */,
+				53122096212C64B90018017F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTSharePanel;
+			productName = GTSharePanel;
+			productReference = 53122098212C64B90018017F /* GTSharePanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53122090212C64B90018017F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Goldx4;
+				TargetAttributes = {
+					53122097212C64B90018017F = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 53122093212C64B90018017F /* Build configuration list for PBXProject "GTSharePanel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5312208F212C64B90018017F;
+			productRefGroup = 53122099212C64B90018017F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53122097212C64B90018017F /* GTSharePanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53122096212C64B90018017F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531220A8212C64BB0018017F /* LaunchScreen.storyboard in Resources */,
+				531220A5212C64BB0018017F /* Assets.xcassets in Resources */,
+				531220A3212C64B90018017F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53122094212C64B90018017F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531220B9212CF65A0018017F /* AutoHomeSharePanel.m in Sources */,
+				5360751E212EAEB400F6551A /* BossSharePanel.m in Sources */,
+				5360751A212EAA2D00F6551A /* UIButton+ImageTitleStyle.m in Sources */,
+				531220A0212C64B90018017F /* ViewController.m in Sources */,
+				531220AB212C64BB0018017F /* main.m in Sources */,
+				5312209D212C64B90018017F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		531220A1212C64B90018017F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				531220A2212C64B90018017F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		531220A6212C64BB0018017F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				531220A7212C64BB0018017F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		531220AC212C64BB0018017F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		531220AD212C64BB0018017F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		531220AF212C64BB0018017F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYJ9LCKRWW;
+				INFOPLIST_FILE = GTSharePanel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Goldx4.GTSharePanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		531220B0212C64BB0018017F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYJ9LCKRWW;
+				INFOPLIST_FILE = GTSharePanel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Goldx4.GTSharePanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53122093212C64B90018017F /* Build configuration list for PBXProject "GTSharePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531220AC212C64BB0018017F /* Debug */,
+				531220AD212C64BB0018017F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531220AE212C64BB0018017F /* Build configuration list for PBXNativeTarget "GTSharePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531220AF212C64BB0018017F /* Debug */,
+				531220B0212C64BB0018017F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53122090212C64B90018017F /* Project object */;
+}
